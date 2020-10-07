@@ -1,0 +1,6 @@
+# sudo setfacl -m user:$USER:rw /var/run/docker.sock  to give docker access without sudo
+FROM nginx
+
+LABEL maintainer="damien@exemple.com"
+
+COPY demo/. /usr/share/nginx/html
