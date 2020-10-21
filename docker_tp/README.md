@@ -22,10 +22,10 @@ docker run hello-world
 
 ## 2.Lancement de son premier conteneur
 
-Téléchargez une image nginx depuis [docker-hub] (https://hub.docker.com), qui référence toutes les images publiques proposées pour docker.
+Téléchargez une image nginx depuis [docker-hub](https://hub.docker.com), qui référence toutes les images publiques proposées pour docker.
 Pour des questions de sécurité, il est toujours conseillé de 'pull' en priorité les images officielles.
 
-![Image officielle Nginx] (/assets/images/hub-nginx.jpg)
+![Image officielle Nginx](/assets/images/hub-nginx.jpg)
 
 Pour télécharger l'image, sans la lancer, faites la commande suivante:
 
