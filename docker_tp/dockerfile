@@ -1,5 +1,0 @@
-FROM nginx
-
-LABEL maintainer="damien@exemple.com"
-
-COPY demo/. /usr/share/nginx/html

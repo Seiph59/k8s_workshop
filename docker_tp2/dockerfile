@@ -1,0 +1,14 @@
+FROM nginx  
+# FROM pour déterminer de quel image nous partons
+# FROM scratch si l'on veut partir de rien
+
+LABEL maintainer="damien@exemple.com"
+# Bonne pratique qui vise à signaler qui est à l'origine du dockerfile
+
+COPY demo/. /usr/share/nginx/html
+# Permet de copier le fichier depuis votre machine (chemin relatif, en partant du dockerfile) vers le conteneur
+
+EXPOSE 80
+# Permet de renseigner quel port sera utilisé avec ce conteneur, dans le cadre 
+# de NGINX on imagine facilement le port, mais cela peut être plus difficile avec une autre app
+
